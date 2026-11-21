@@ -1,6 +1,6 @@
 # Windows Server 2022 Enterprise Active Directory & Network Lab
 
-A hands-on System and Network Administration lab built in **VMware Workstation Pro 17** using **Windows Server 2022**. Each module includes step-by-step GUI walkthroughs with visual verification, architectural notes, and equivalent PowerShell automation scripts.
+A hands-on System and Network Administration lab built in **VMware Workstation Pro 17** using **Windows Server 2022**. Each module includes step-by-step GUI walkthroughs with visual verification, architectural rationale, and troubleshooting notes.
 
 ---
 
@@ -14,13 +14,13 @@ A hands-on System and Network Administration lab built in **VMware Workstation P
 
 ## Lab Modules & Progress
 
-| Module | Topic | Documentation | PowerShell Script | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Module 01** | VM Provisioning, Static IP & Server Baseline | [01-server-baseline.md](./docs/01-server-baseline.md) | [01-server-baseline.ps1](./scripts/01-server-baseline.ps1) | Completed |
-| **Module 02** | Active Directory Domain Services (AD DS) & DNS Setup | *Coming Next* | — | In Progress |
-| **Module 03** | DHCP Scope Configuration & Client Domain Join | *Planned* | — | Planned |
-| **Module 04** | Organizational Units (OUs), RBAC & User Provisioning | *Planned* | — | Planned |
-| **Module 05** | Group Policy Hardening & File Server Permissions | *Planned* | — | Planned |
+| Module | Topic | Documentation | Status |
+| :--- | :--- | :--- | :--- |
+| **Module 01** | VM Provisioning, Static IP & Server Baseline | [01-server-baseline.md](./docs/01-server-baseline.md) | Completed |
+| **Module 02** | Active Directory Domain Services (AD DS) & DNS Setup | *Coming Next* | In Progress |
+| **Module 03** | DHCP Scope Configuration & Client Domain Join | *Planned* | Planned |
+| **Module 04** | Organizational Units (OUs), RBAC & User Provisioning | *Planned* | Planned |
+| **Module 05** | Group Policy Hardening & File Server Permissions | *Planned* | Planned |
 
 ---
 
@@ -31,6 +31,5 @@ Active-Directory-Lab/
 ├── README.md                  # Lab overview, network table, and module index
 ├── assets/
 │   └── screenshots/           # Step-by-step verification screenshots
-├── docs/                      # Detailed Markdown walkthroughs for each module
-└── scripts/                   # PowerShell automation equivalents
+└── docs/                      # Detailed Markdown walkthroughs for each module
 ```

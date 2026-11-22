@@ -12,14 +12,15 @@ A hands-on System and Network Administration lab built in **VMware Workstation P
 
 ---
 
-## Lab Modules & Progress
+## Lab Modules
 
 | Module | Topic | Documentation | Status |
 | :--- | :--- | :--- | :--- |
 | **Module 01** | VM Provisioning, Static IP & Server Baseline | [01-server-baseline.md](./docs/01-server-baseline.md) | Completed |
-| **Module 02** | Active Directory Domain Services (AD DS) & DNS Setup | [02-adds-dns-setup.md](./docs/02-adds-dns-setup.md) | Completed || **Module 03** | DHCP Scope Configuration & Client Domain Join | *Planned* | Planned |
-| **Module 04** | Organizational Units (OUs), RBAC & User Provisioning | *Planned* | Planned |
-| **Module 05** | Group Policy Hardening & File Server Permissions | *Planned* | Planned |
+| **Module 02** | Active Directory Domain Services (AD DS) & DNS Setup | [02-adds-dns-setup.md](./docs/02-adds-dns-setup.md) | Completed |
+| **Module 03** | DHCP Server Configuration & Windows 10 Client Domain Join | `03-dhcp-client-join.md` | In Progress |
+| **Module 04** | Organizational Units (OUs), RBAC & User Provisioning | `04-ou-rbac-provisioning.md` | Planned |
+| **Module 05** | Group Policy Hardening & File Server Permissions | `05-gpo-file-permissions.md` | Planned |
 
 ---
 
